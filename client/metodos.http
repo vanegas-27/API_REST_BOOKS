@@ -1,0 +1,55 @@
+//default
+GET http://localhost:4321/api/ HTTP/1.1
+
+
+###
+//libros
+GET http://localhost:4321/api/books/ HTTP/1.1
+
+
+###
+//libro con path
+GET http://localhost:4321/api/books/categoria/aventura HTTP/1.1
+
+
+###
+//peticion post
+POST http://localhost:4321/api/books/ HTTP/1.1
+Content-Type: application/json
+
+{
+  "img": "../public/assets/img/1984.webp",
+  "producto": "deporte estremo",
+  "descripcion": "Lo sabes que es de lo mas real de la vida",
+  "categoria": "ficcion",
+  "precio": 47890
+}
+
+
+###
+//peticion put
+PUT http://localhost:4321/api/books/5 HTTP/1.1
+Content-Type: application/json
+
+{
+  "img": "../public/assets/img/1984.webp",
+  "producto": "no hay nada amigo",
+  "descripcion": "El que sabe de back-end y mas...",
+  "categoria": "ficcion",
+  "precio": 45000
+}
+
+
+###
+PATCH http://localhost:4321/api/books/1 HTTP/1.1
+Content-Type: application/json
+
+{
+  "img" : "lo mejores"
+}
+
+
+###
+//peticion delete
+DELETE http://localhost:4321/api/books/35 HTTP/1.1
+
