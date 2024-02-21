@@ -33,6 +33,48 @@ inicie el servidor
   npm run start
 ```
 
+```
+└── 📁RestApiExpress
+    └── .editorconfig
+    └── .env
+    └── .gitignore
+    └── 📁build
+        └── 📁app
+            └── app.js
+            └── config.js
+        └── 📁controller
+            └── controller.bd.js
+        └── 📁database
+            └── bd.js
+        └── main.js
+        └── 📁routes
+            └── books.routes.js
+        └── 📁services
+            └── services.js
+    └── 📁client
+        └── metodos.http
+    └── json.png
+    └── package-lock.json
+    └── package.json
+    └── README.MD
+    └── 📁src
+        └── 📁app
+            └── app.ts
+            └── config.ts
+        └── 📁controller
+            └── controller.bd.ts
+        └── 📁database
+            └── bd.ts
+        └── main.ts
+        └── 📁routes
+            └── books.routes.ts
+        └── 📁services
+            └── services.ts
+        └── types.d.ts
+    └── tsconfig.json
+```
+
+
 
 ## Documentacion
 
